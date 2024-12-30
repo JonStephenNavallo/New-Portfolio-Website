@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/95f48f2a05.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="Logo.png" class="logo1">
+        <nav>
+            <a href="#" class="nav-link active" data-target="home">Home</a>
+            <a href="#" class="nav-link" data-target="aboutme">About Me</a>
+            <a href="#" class="nav-link" data-target="skill">Skills</a>
+            <a href="#" class="nav-link" data-target="work">Work Experience</a>
+            <a href="#" class="nav-link" data-target="project">Projects</a>
+            <a href="#" class="nav-link" data-target="tools">Tools</a>
+            <a href="#" class="nav-link" data-target="contact">Contact</a>
+        </nav>
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger-menu" id="hamburgerMenu" onclick="toggleSideMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Side Menu -->
+        <div class="side-menu" id="sideMenu">
+            <button class="close-btn" onclick="toggleSideMenu()">&times;</button>
+            <a href="#" class="nav-link active" data-target="home">Home</a>
+            <a href="#" class="nav-link" data-target="aboutme">About Me</a>
+            <a href="#" class="nav-link" data-target="skill">Skills</a>
+            <a href="#" class="nav-link" data-target="work">Work Experience</a>
+            <a href="#" class="nav-link" data-target="project">Projects</a>
+            <a href="#" class="nav-link" data-target="tools">Tools</a>
+            <a href="#" class="nav-link" data-target="contact">Contact</a>
+        </div>
+
+    </header>
+    <section>
+        <div id="home" class="hero-content">
+            <div class="heroandabout-text">
+                <h2>Hi, I'm</h2>
+                <h1 class="name">Stephen</h1>
+                <h3>A Web Designer and Developer</h3>
+                <br>
+                <br>
+                <p id="aboutme" class="about-text">About Me</p>
+                <p class="about-statement">My name is Jon Stephen P. Navallo, and I am currently studying Information Technology. As a  junior developer, I am maintaining and improving my skills in creating efficient and user-friendly web applications. My focus is on front-end development, where I combine my knowledge, skills, and creativity for design to deliver high-quality user experiences.</p>
+                </div>
+            <div class="hero-image">
+                <img src="HeroImage.png" class="myimage">
+            </div> 
+        </div>
+        <div id="skill" class="skillandwork-container">
+            <p class="skills-text">Skills</p>
+            <div class="skills-content">
+                <div class="skillcontainer1">
+                    <i class="fa-regular fa-4x fa-lightbulb" style="color: azure;"></i>
+                    <p class="skill-details"><strong>Problem Solving</strong><br><br>I tackle challenges by breaking them into manageable tasks, ensuring efficient and practical solutions. Whether debugging code or optimizing workflows, I approach problems with focus and reliability.</p>
+                </div>
+                <div class="skillcontainer2">
+                    <i class="fa-solid fa-4x fa-brain" style="color: azure;"></i>
+                    <p class="skill-details"><strong>Creativity</strong><br><br>I bring innovative ideas to life through unique design and technical solutions. From crafting engaging user interfaces to writing clean, efficient code, I strive to deliver work that stands out.</p>
+                </div>
+                <div class="skillcontainer3">
+                    <i class="fa-regular fa-4x fa-handshake" style="color: azure;"></i>
+                    <p class="skill-details"><strong>Collaboration</strong><br><br>I thrive in team settings, contributing ideas, listening actively, and adapting to feedback. I value open communication and teamwork to achieve shared goals effectively.</p>
+                </div>
+            </div>
+            <p id="work" class="work-text">Work Experience</p>
+            <div class="workexperience-content">
+                <div class="workcontainer1">
+                    <p class="work-details"><strong>Freelance Web Developer (Nov 2024 – Present)</strong><br>
+                        Built responsive websites using HTML, CSS, and JavaScript for small business and personal projects.
+                        Implemented JavaScript functionality for interactive features such as image galleries, forms, and navigation menus.
+                        Collaborated with clients to design and develop websites that meet their needs, ensuring that the final product was user-friendly and visually appealing.</p>
+                </div>
+            </div>
+            <div class="project-content">
+                <p  id="project" class="project-text">Project/s</p>
+                <div class="projectcontainer1">
+                    <p class="project-details"><strong>(December 2024 – Present)</strong><br>
+                        Created a portfolio website to showcase programming skills and personal projects.</p>
+                </div>
+                <div class="projectcontainer2">
+                    <p class="project-details"><strong>(December 2024 – Present)</strong><br>
+                        Collaborated to create a website to showcase the services and products provided by the business with a focus on clean design and usability.</p>
+                </div>
+            </div>
+            <div class="designtools-container">
+                <p id="tools" class="tools-text">Design Tools I Used</p>
+                <div class="tools-content">
+                    <div class="toolcontainer1">
+                        <i class="fa-brands fa-4x fa-figma" style="color: azure;"></i>
+                        <p class="skill-details"><strong>Figma</strong><br><br>This is the program I used to create wireframes, designs, and prototypes for a website.</p>
+                    </div>
+                    <div class="toolcontainer2">
+                        <img src="icons8-photoshop.svg" alt="Icon" width="64" height="64">
+                        <p class="skill-details"><strong>Adobe Photoshop</strong><br><br>I used this program to design and edit graphical elements that I include in a website such as logos and icons.</p>
+                    </div>
+                    <div class="toolcontainer3">
+                        <img src="icons8-adobe-lightroom.svg" alt="Icon" width="64" height="64">
+                        <p class="skill-details"><strong>Adobe Lightroom</strong><br><br>I used this program especially in editing photos that I put into a website.</p>
+                    </div>
+                    <div class="toolcontainer4">
+                        <img src="icons8-davinci-resolve.svg" alt="Icon" width="64" height="64">
+                        <p class="skill-details"><strong>Da Vinci Resolve</strong><br><br>I have experience using this program, and it can also be used to edit videos that can be featured on a website's homepage and featured sections.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="contact-container">
+                <p class="contact-text">Contact Me</p>
+                <div class="contact-content">
+                    <div class="contactcontainer1">
+                        <a href="https://www.facebook.com/jonstephen.navallo" target="_blank" title="Facebook">
+                            <i class="fa-brands fa-4x fa-facebook" style="color: azure;"></i>
+                            <p class="contact-details">Add me on Facebook</p>
+                        </a>
+                    </div>
+                    <div class="contactcontainer2">
+                        <a href="https://www.instagram.com/jonstivn/profilecard/?igsh=cDY3ZzlnaGV1M2p5" target="_blank" title="Instagram">
+                            <i class="fa-brands fa-4x fa-instagram" style="color: azure;"></i>
+                            <p class="contact-details">Follow me on Instagram</p>
+                        </a>
+                    </div>
+                    <div class="contactcontainer3">
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" title="Email">
+                            <img src="icons8-gmail.svg" alt="Icon" width="64" height="64">
+                            <p class="contact-details">Send me an Email</p>
+                        </a>
+                    </div>
+                    <div class="contactcontainer4">
+                        <a href="https://t.me/tepinnn09" target="_blank" title="Telegram">
+                            <i class="fa-brands fa-4x fa-telegram" style="color: azure;"></i> 
+                            <p class="contact-details">Message me on Telegram</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="sticky-footer">
+        <div class="footer-content">
+            <span class="contact-info">Text Me: <a href="tel:+1234567890">+63-945-500-0232</a></span>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/jonstephen.navallo" target="_blank" title="Facebook">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/jonstivn/profilecard/?igsh=cDY3ZzlnaGV1M2p5" target="_blank" title="Instagram">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" title="Email">
+                    <i class="fa fa-envelope"></i>
+                </a>
+                <a href="https://discord.com" target="_blank" title="Discord">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- <a target="_blank" href="https://icons8.com/icon/60629/adobe-photoshop">Photoshop</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
+</body>
+</html>

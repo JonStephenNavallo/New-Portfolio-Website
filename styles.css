@@ -1,0 +1,793 @@
+html, body {
+    background-color: #1D1B26;
+    font-family: 'Poppins', sans-serif;
+    height: 3900px;
+}
+
+header {
+    display: flex;
+    align-items: center; 
+    position: sticky; 
+    top: 0; 
+    background-color: #1D1B26;
+    padding: 10px 20px
+}   
+
+
+.logo1 {
+    scale: 0.8;
+}
+
+nav {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+nav a {
+
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    color: azure;
+}
+
+nav a:hover {
+    color: #3AFFC1;
+}
+
+nav a.active {
+    background-color: #3AFFC1;
+    border-radius: 12px 12px 12px 12px; 
+    padding: 10px 10px 10px 10px;
+    color: #36384F;
+    font-weight: 600;
+}
+
+
+/* HERO TEXT CONTAINER */
+
+.heroandabout-text {
+    padding-top: 90px;
+    padding-left: 7%;
+}
+
+.heroandabout-text h2, .heroandabout-text h1 {
+    line-height: 0.4;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 200;
+    color: azure;
+}
+
+h2 {
+    font-size: 50px;
+    color: azure;
+}
+h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color:#3AFFC1
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.myimage {
+    width: auto;
+    height: 1050px;
+}
+
+.hero-image {
+    padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT SECTION */
+.about-text {
+    font-size: 50px;
+    font-weight: 600;
+    color: #3AFFC1;
+}
+
+.about-statement {
+    font-size: 18px;
+    color: azure;
+}
+
+
+/* SKILLS AND WORK EXPERIENCE */
+.skillandwork-container {
+    margin-top: 10px;
+    width: auto;
+    height: 500px;
+}
+
+.skills-text {
+    font-size: 50px;
+    font-weight: 600;
+    color: #3AFFC1;
+    text-align: center;
+}
+
+.skills-content {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.skillcontainer1, .skillcontainer2, .skillcontainer3 {
+    padding: 25px;
+    width: 20%;
+    height: 30%;
+    background-color: #36384F;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.skill-details {
+    color: azure;
+}
+
+
+.skillandwork-container {
+    margin-top: 10px;
+    width: auto;
+    height: 500px;
+}
+
+.skills-text {
+    font-size: 50px;
+    font-weight: 600;
+    color: #3AFFC1;
+    text-align: center;
+}
+
+.skills-content {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+.skillcontainer1, .skillcontainer2, .skillcontainer3 {
+    padding: 25px;
+    width: 20%; 
+    height: 30%;
+    background-color: #36384F;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.skill-details {
+    color: azure;
+}
+
+
+
+/* WORK EXPERIENCE CONTENT */
+.work-text {
+    padding-top: 90px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #3AFFC1;
+    text-align: center;
+}
+
+.workexperience-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workcontainer1, .workcontainer2{
+    padding: 25px;
+    width: 90%;
+    height: 70%;
+    background-color: #36384F;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.work-details {
+    color: azure;
+}
+
+
+/* PROJECTS CONTENT */
+.project-text {
+    padding-top: 90px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #3AFFC1;
+    text-align: center;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectcontainer1, .projectcontainer2 {
+    padding: 25px;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 70%;
+    background-color: #36384F;
+    border-radius: 20px;
+    text-align: left;
+    align-items: center;
+}
+
+.project-details {
+    color: azure;
+}
+
+
+
+
+/* TOOL CONTENT */
+
+.tools-text {
+    padding-top: 90px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #3AFFC1;
+    text-align: center;
+}
+
+
+.tools-content {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.toolcontainer1, .toolcontainer2, .toolcontainer3, .toolcontainer4 {
+    padding: 25px;
+    width: 17%;
+    height: auto;
+    background-color: #36384F;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* CONTACT CONTENT */
+
+.contact-container {
+    margin-top: 10px;
+    width: auto;
+    height: 500px;
+}
+
+.contact-container a{
+    text-decoration: none;
+}
+
+.contact-text {
+    padding-top: 90px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #3AFFC1;
+    text-align: center;
+}
+
+.contact-content {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contactcontainer1, .contactcontainer2, .contactcontainer3, .contactcontainer4 {
+    padding: 25px;
+    width: 17%;
+    height: auto;
+    background-color: transparent;
+    border: 3px solid azure;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contactcontainer1:hover,
+.contactcontainer2:hover,
+.contactcontainer3:hover,
+.contactcontainer4:hover {
+    background-color: #36384F; 
+    border-color: #3AFFC1; 
+    color: purple; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.05); 
+}
+
+
+.contact-details {
+    color: azure;
+}
+
+
+
+.sticky-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1D1B26; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info a {
+    color: #3AFFC1; 
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-icons a:hover {
+    color: #3AFFC1; 
+}
+
+
+
+
+
+
+
+
+
+/* Hamburger Menu */
+.hamburger-menu {
+    scale: 1.2;
+    display: none; /* Hidden by default, only shown on mobile */
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 10px; /* Add padding to make the clickable area larger */
+    transition: background-color 0.3s ease; /* Smooth background color change */
+    border-radius: 2px 10px 2px 10px;
+}
+
+.hamburger-menu span {
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease; /* Smooth line color change */
+}
+
+/* Hover effect for the whole hamburger container */
+.hamburger-menu:hover {
+    background-color: rgb(94, 94, 94); /* Add background highlight */
+}
+
+.hamburger-menu:hover span {
+    background-color: #3AFFC1; /* Change line color */
+}
+
+/* Side Menu */
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -100%; /* Move the menu completely out of the viewport */
+    width: 250px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(35, 32, 40, 0.7); 
+    backdrop-filter: blur(10px); 
+    gap: 15px;
+    padding: 20px;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: left 0.3s ease; /* Smooth sliding transition */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+
+.side-menu a {
+    color: #ededed;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.side-menu a:hover {
+    color: #3AFFC1;
+}
+
+/* Close Button */
+.close-btn {
+    padding-top: 10px;
+    background: none;
+    color: #ffffff;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+    height: auto;
+}
+
+.close-btn:hover {
+    color: #3AFFC1;
+}
+
+/* Active Link Style */
+.side-menu a.active {
+    background-color: #3AFFC1; /* Highlight color */
+    color: #201A15; /* Text color when active */
+    padding-left: 10px; /* Add a little padding to differentiate */
+    border-radius: 0px 10px 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT SECTION */
+.about-text {
+    font-size: 50px;
+    font-weight: 600;
+    color: #3AFFC1;
+}
+
+.about-statement {
+    font-size: 18px;
+    color: azure;
+}
+
+/* SKILLS AND WORK EXPERIENCE */
+.skillandwork-container {
+    margin-top: 10px;
+    width: auto;
+    height: 500px;
+}
+
+.skills-text {
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    font-weight: 600;
+    color: #3AFFC1;
+    text-align: center;
+}
+
+.skills-content {
+    padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.skillcontainer1, .skillcontainer2, .skillcontainer3 {
+    padding: 25px;
+    width: clamp(200px, 25%, 400px);
+    height: auto;
+    background-color: #36384F;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.skill-details {
+    color: azure;
+}
+
+/* WORK EXPERIENCE CONTENT */
+.work-text {
+    padding-top: 90px;
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    font-weight: 600;
+    color: #3AFFC1;
+    text-align: center;
+}
+
+.workexperience-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workcontainer1, .workcontainer2 {
+    padding: 25px;
+    width: clamp(200px, 90%, 800px);
+    height: auto;
+    background-color: #36384F;
+    border-radius: 20px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.work-details {
+    color: azure;
+}
+
+/* PROJECTS CONTENT */
+.project-text {
+    padding-top: 90px;
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    font-weight: 600;
+    color: #3AFFC1;
+    text-align: center;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectcontainer1, .projectcontainer2 {
+    padding: 25px;
+    margin-bottom: 15px;
+    width: clamp(200px, 90%, 800px);
+    height: auto;
+    background-color: #36384F;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.project-details {
+    color: azure;
+}
+
+/* TOOL CONTENT */
+.tools-text {
+    padding-top: 90px;
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    font-weight: 600;
+    color: #3AFFC1;
+    text-align: center;
+}
+
+.tools-content {
+    padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.toolcontainer1, .toolcontainer2, .toolcontainer3, .toolcontainer4 {
+    padding: 25px;
+    width: clamp(150px, 17%, 300px);
+    height: auto;
+    background-color: #36384F;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* CONTACT CONTENT */
+.contact-container {
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+}
+
+.contact-container a {
+    text-decoration: none;
+}
+
+.contact-text {
+    padding-top: 90px;
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    font-weight: 600;
+    color: #3AFFC1;
+    text-align: center;
+}
+
+.contact-content {
+    padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.contactcontainer1, .contactcontainer2, .contactcontainer3, .contactcontainer4 {
+    padding: 25px;
+    width: clamp(150px, 17%, 300px);
+    height: auto;
+    background-color: transparent;
+    border: 3px solid azure;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contactcontainer1:hover,
+.contactcontainer2:hover,
+.contactcontainer3:hover,
+.contactcontainer4:hover {
+    background-color: #36384F; 
+    border-color: #3AFFC1; 
+    color: purple; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.05); 
+}
+
+.contact-details {
+    color: azure;
+}
+
+/* Footer */
+.sticky-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1D1B26; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info a {
+    color: #3AFFC1; 
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-icons a:hover {
+    color: #3AFFC1; 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* HERO CONTENT FOR TABLET */
+/* Toggle Menu */
+@media screen and (max-width: 930px) {
+
+    nav {
+        display: none; 
+    }
+
+    .mobile-nav {
+        display: flex; 
+    }
+
+    .hamburger-menu {
+        display: flex; 
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        position: fixed; /* Fixes the header to the top */
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #1D1B26;
+        padding: 10px 20px;
+        z-index: 2000; /* Ensure header stays on top of other elements */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for visibility */
+    }
+
+    .myimage {
+        width: auto;
+        height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    /* .hero-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hero-image {
+        padding-right: 30px;
+    } */
+
+    .contact-container {
+        padding-bottom: 100px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 768px) { /* Target mobile devices */
+    .hero-content {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .hero-image {
+        padding-right: 0; /* Remove padding on mobile */
+        margin-bottom: 15px; /* Add space between image and content */
+    }
+}
+
